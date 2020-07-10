@@ -28,7 +28,10 @@ export default {
     console.log("DO SAVE");
     },
     doMenu(){
-        this.$router.replace('menu')
+        this.$router.push('menu')
+    },
+    doHome(){
+        this.$router.push('/')
     },
   },
 }
